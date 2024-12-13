@@ -11,7 +11,9 @@ The following repository is a simple way to create and manage a MongoDB database
 4. You can modify or add default collections and data
 
 ## RUN
-docker-compose up -d
+docker-compose up -d 
+docker-compose -f docker-compose-old.yml up
+
 
 ## STOP
 docker-compose down -v
